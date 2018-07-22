@@ -64,7 +64,7 @@ end
 
 def runner
   # code runner here
-  Welcome
+  welcome
   until hit?(initial_round)>21 do
   end_game
 end
