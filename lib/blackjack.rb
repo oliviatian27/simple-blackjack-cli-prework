@@ -45,12 +45,17 @@ def hit?(n)
     pass
   elsif input=='h'
     n+=deal_card
-    
+  else 
+    invalid_command
+    prompt_user
+  end
+  return n
     
 end
 
 def invalid_command
   # code invalid_command here
+  
 end
 
 #####################################################
