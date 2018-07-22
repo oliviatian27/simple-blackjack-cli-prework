@@ -42,7 +42,7 @@ def hit?(n)
   prompt_user
   input=get_user_input
   if input=='s'
-    prompt_user
+    puts 'ask again'
   elsif input=='h'
     n+=deal_card
   else
