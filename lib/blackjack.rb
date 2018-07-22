@@ -63,5 +63,7 @@ end
 
 def runner
   # code runner here
+  initial_round
+  
 end
     
