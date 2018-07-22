@@ -41,11 +41,10 @@ def hit?(n)
   # code hit? here
   prompt_user
   input=get_user_input
-  if input=='s'
-    pass
-  elsif input=='h'
+ 
+  if input=='h'
     n+=deal_card
-  else 
+  elsif input!='h' &&input!='s'
     invalid_command
     prompt_user
   end
