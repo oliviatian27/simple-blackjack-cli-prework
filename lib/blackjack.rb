@@ -41,7 +41,7 @@ def hit?(n)
   # code hit? here
   prompt_user
   input=get_user_input
-  if input!=='s'
+  if input=='s'
     prompt_user
   elsif input=='h'
     n+=deal_card
