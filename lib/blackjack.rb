@@ -43,6 +43,7 @@ def hit?(n)
   input=get_user_input
   if input=='s'
     prompt_user
+    get_user_input
   elsif input=='h'
     n+=deal_card
   else
@@ -66,7 +67,7 @@ def runner
   # code runner here
   welcome
   until hit?(initial_round)>21 do
-  end_game
+  end_game(hit?(initial_round))
 end
   
 end
