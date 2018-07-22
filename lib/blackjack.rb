@@ -42,6 +42,11 @@ def hit?(n)
   prompt_user
   input=get_user_input
   if input=='s'
+    pass
+  elsif input=='h'
+    n+=deal_card
+    
+    
 end
 
 def invalid_command
