@@ -37,8 +37,11 @@ def initial_round
   return deal_card+deal_card
 end
 
-def hit?
+def hit?(n)
   # code hit? here
+  prompt_user
+  input=get_user_input
+  if input=='s'
 end
 
 def invalid_command
