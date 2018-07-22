@@ -42,8 +42,7 @@ def hit?(n)
   prompt_user
   input=get_user_input
   if input=='s'
-    prompt_user
-    get_user_input
+    n
   elsif input=='h'
     n+=deal_card
   else
