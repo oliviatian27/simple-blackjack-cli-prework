@@ -41,10 +41,11 @@ def hit?(n)
   # code hit? here
   prompt_user
   input=get_user_input
- 
-  if input=='h'
+  if input!='s'
+    prompt_user
+  elsif input=='h'
     n+=deal_card
-  elsif input!='h' &&input!='s'
+  else
     invalid_command
     prompt_user
   end
@@ -63,7 +64,9 @@ end
 
 def runner
   # code runner here
-  initial_round
+  Welcome
+  hit?(initial_round)
+  until 
   
 end
     
