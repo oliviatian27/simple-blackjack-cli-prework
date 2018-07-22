@@ -54,8 +54,8 @@ def hit?(n)
 end
 
 def invalid_command
-  # code invalid_command here
-  
+  # copde invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
